@@ -2,8 +2,10 @@
 Diseño e Implementación de comercio electrónico a nivel nacional 
 
 ## PROBLEMA
-El comercio electrónico no es algo nuevo en el mundo, ni es el futuro ni una revolución que marca la diferencia, sin embargo la falta de compañías de comercio electrónico a nivel nacional es  notable, puesto que cuando se realiza una compra en línea de un producto, la entrega del mismo suele tardar como 10 dias mínimamente desde el momento de la compra , por lo que opta por tener una compañía de  comercio electrónico de compra y venta nacional haciendo que las entregas de productos sean razonables, eficientes y eficaces.
+El comercio electrónico no es algo nuevo en el mundo, ni es el futuro ni una revolución que marca la diferencia, sin embargo la falta de compañías de comercio electrónico a nivel nacional es  notable, puesto que cuando se realiza una compra en línea de un producto, la entrega del mismo suele tardar como 10 dias mínimamente desde el momento de la compra , por lo que opta por tener una compañía de  comercio electrónico de compra y venta nacional haciendo que las entregas de productos sean razonables.
+
 Recurriendo a esto se deja de depender de sistemas externos como ser amazon o ebay de tal forma que se tenga como opción utilizar recurrir a los otros sistemas en caso de estar buscando algún producto internacional o así mismo recurrir al sistema planteado y hacer la comercializacion mas cómoda y mucho mas rapida.
+
 Por otro lado al tener este tipo de servicio a nivel nacional ayudaría a generar más comunidad entre los usuarios de cada departamento. 
 
 ## PROPUESTA GENERAL DE SOLUCIÓN
@@ -43,6 +45,42 @@ La empresa "electronic sales" desea implementar un sistema de compra y venta ele
 - 6 [Se podrá realizar búsquedas según a categorías de productos] (https://github.com/LauraPereyra/rfp/issues/7)
 - 7 [Debe existir un carrito de compras, al cual se pueden añadir, eliminar o modificar productos] (https://github.com/LauraPereyra/rfp/issues/5)
 - 8 [Se debe tener un desglose por producto, es decir, de cada producto se debe tener el detalle de precio, cantidades vendidas y cantidades restantes] (https://github.com/LauraPereyra/rfp/issues/8)
+
+#Observaciones
+
+##Explicar en detalle el proceso de entrega. 
+Puesto que la empresa se caracteriza por ser C2C, el proceso de entrega será tercerizado, es decir que la empresa relaciona al comprador con el vendedor y la actividad comercial se lleva a cabo entre ambos. Cabe destacar que  en la descripción de cada artículo debe redactarse como se realizará la entrega. 
+
+##Agregar información de PayME 
+Optar por utilizar como plataforma de pago pay-me o stripe para simular pagos.
+
+###Pay-me 
+Red Enlace S.A. es una empresa especializada en la gestión de medios de pago electrónico. Esta empresa nos ofrece “Pay-me”, un servicio que permite recibir pagos con tarjetas de débito, crédito y prepago por internet, mediante una plataforma segura certificada bajo protocolo 3D-Secure. 
+
+El proceso de compra con pay-me es el siguiente:
+El comprador ingresa al sitio web de comercio electrónico.
+El comprador llena el carrito de compras y luego ingresa sus datos dando inicio al proceso de pago (pay-me).
+El comprador llena el formulario de pago e ingresa los datos de su tarjeta en un entorno totalmente seguro y certificado.
+La tarjeta debe estar habilitada para compras por internet.
+Finaliza el pago y la transacción es procesada.
+Importante: El banco emisor de la tarjeta programa 3D secure, se pedirá al comprador registrar una clave que será enviada a su teléfono celular, para la autenticación.
+
+(https://www.youtube.com/watch?v=o0u5CkCyqSs)
+
+
+
+////////
+
+
+##¿cómo van a gestionar disputas? 
+Las disputas únicamente se harán entre comprador y vendedor ofreciendo un enlace por correo electrónico para que ambos arreglen el envío y recepción debido a que el modelo de negocio planteado sería C2C por lo que nos liberaremos de la responsabilidad en caso de reembolsos y/o extravíos.
+Casos de disputas:
+Artículos no recibidos → Una vez realizado el pago y en caso de no haber recibido el producto en el plazo previsto, debe comunicarse con el vendedor para que el mismo haga el seguimiento del paquete.
+Artículos muy distintos a la descripción → si el producto adquirido no coincide con la descripción, debe comunicarse con el vendedor para acordar la devolución del mismo y el reembolso.
+En caso de que el comprador no pueda de ninguna forma ponerse en contacto con el vendedor, la empresa proporcionará un número de contacto.
+
+
+
 
 	
 
