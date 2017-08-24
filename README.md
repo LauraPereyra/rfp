@@ -90,11 +90,12 @@ Stripe permite realizar pruebas en vivo y entrar en modo de prueba. Los modos de
 ## Explicar cómo se gestiona el tema de los puntos y para qué sirve.
 El tema de los puntos está plasmado con el siguiente cálculo siendo una propuesta inicial para la reducción de las comisiones:
 
- - |Cantidad de ventas en caso de obtener 5 estrellas	   | 0  | 200  | 400  | 600  | 800  | 1000 |
- - |Puntos 					  	   | 0  | 1000 | 2000 | 3000 | 4000 | 5000 |
- - |Costo					  	   | 50 | 50   |  50  | 50   | 50   | 50   |
- - |Disminución de la tasa de comisión  	   	   | 0  | 0.05 | 0.08 | 0.05 | 0.10 | 0.15 |
- - |Total descuento 				   	   | 0  | 2.5  |  4   |  5   | 6.5  | 7.5  |
+  |Cantidad de ventas en caso de obtener 5 estrellas	   | 0  | 200  | 400  | 600  | 800  | 1000 |
+  |-------------------------------------------------------|---|---|---|---|---|---|
+  |Puntos 					  	   | 0  | 1000 | 2000 | 3000 | 4000 | 5000 |
+  |Costo					  	   | 50 | 50   |  50  | 50   | 50   | 50   |
+  |Disminución de la tasa de comisión  	   	   | 0  | 0.05 | 0.08 | 0.05 | 0.10 | 0.15 |
+  |Total descuento 				   	   | 0  | 2.5  |  4   |  5   | 6.5  | 7.5  |
 
 ## ¿cómo van a gestionar disputas? 
 Las disputas únicamente se harán entre comprador y vendedor ofreciendo un enlace por correo electrónico para que ambos arreglen el envío y recepción debido a que el modelo de negocio planteado sería C2C por lo que nos liberaremos de la responsabilidad en caso de reembolsos y/o extravíos.
