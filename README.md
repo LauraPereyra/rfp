@@ -46,15 +46,15 @@ La empresa "electronic sales" desea implementar un sistema de compra y venta ele
 - 7 [Debe existir un carrito de compras, al cual se pueden añadir, eliminar o modificar productos] (https://github.com/LauraPereyra/rfp/issues/5)
 - 8 [Se debe tener un desglose por producto, es decir, de cada producto se debe tener el detalle de precio, cantidades vendidas y cantidades restantes] (https://github.com/LauraPereyra/rfp/issues/8)
 
-#Observaciones
+# Observaciones
 
-##Explicar en detalle el proceso de entrega. 
+## Explicar en detalle el proceso de entrega. 
 Puesto que la empresa se caracteriza por ser C2C, el proceso de entrega será tercerizado, es decir que la empresa relaciona al comprador con el vendedor y la actividad comercial se lleva a cabo entre ambos. Cabe destacar que  en la descripción de cada artículo debe redactarse como se realizará la entrega. 
 
-##Agregar información de PayME 
+## Agregar información de PayME 
 Optar por utilizar como plataforma de pago pay-me o stripe para simular pagos.
 
-###Pay-me 
+### Pay-me 
 Red Enlace S.A. es una empresa especializada en la gestión de medios de pago electrónico. Esta empresa nos ofrece “Pay-me”, un servicio que permite recibir pagos con tarjetas de débito, crédito y prepago por internet, mediante una plataforma segura certificada bajo protocolo 3D-Secure. 
 
 El proceso de compra con pay-me es el siguiente:
@@ -72,7 +72,7 @@ Importante: El banco emisor de la tarjeta programa 3D secure, se pedirá al comp
 ////////
 
 
-##¿cómo van a gestionar disputas? 
+## ¿cómo van a gestionar disputas? 
 Las disputas únicamente se harán entre comprador y vendedor ofreciendo un enlace por correo electrónico para que ambos arreglen el envío y recepción debido a que el modelo de negocio planteado sería C2C por lo que nos liberaremos de la responsabilidad en caso de reembolsos y/o extravíos.
 Casos de disputas:
 Artículos no recibidos → Una vez realizado el pago y en caso de no haber recibido el producto en el plazo previsto, debe comunicarse con el vendedor para que el mismo haga el seguimiento del paquete.
