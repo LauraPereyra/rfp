@@ -51,6 +51,12 @@ La empresa "electronic sales" desea implementar un sistema de compra y venta ele
 ## Explicar en detalle el proceso de entrega. 
 Puesto que la empresa se caracteriza por ser C2C, el proceso de entrega será tercerizado, es decir que la empresa relaciona al comprador con el vendedor y la actividad comercial se lleva a cabo entre ambos. Cabe destacar que  en la descripción de cada artículo debe redactarse como se realizará la entrega. 
 
+## Agregar a la factibilidad el detalle de cómo se maneja la seguridad.
+La seguridad se terciarizará con respecto al pago por stripe/pay-me por lo que la única información que se maneja sería la información personal del usuario y los productos mostrados en venta mas no algún tipo de información delicada o que pueda comprometer en algún momento al usuario. 
+
+## Dar soporte a todos lo navegadores desde IE 8
+- 1 [Dar soporte a todos lo navegadores desde IE 8] (https://github.com/LauraPereyra/rfp/issues/1)
+
 ## Agregar información de PayME 
 Optar por utilizar como plataforma de pago pay-me o stripe para simular pagos.
 
@@ -67,10 +73,28 @@ Importante: El banco emisor de la tarjeta programa 3D secure, se pedirá al comp
 
 (https://www.youtube.com/watch?v=o0u5CkCyqSs)
 
+### Stripe 
+Stripe desarrolla las herramientas más avanzadas y flexibles para el comercio electrónico. Las API’s de Stripe te ayudan a crear el mejor producto posible para tus usuarios: servicio de suscripción, marketplace "on demand", un establecimiento de comercio electrónico o una plataforma de microfinanciación. Miles de las empresas de tecnología más innovadoras del mundo crecen con más rapidez y eficiencia gracias a la integración de Stripe.
 
+La forma más fácil de integrar Stripe es a través de Checkout, una herramienta integrada que se encarga de crear un formulario HTML, validar la entrada de los usuarios y asegurar los datos de la tarjeta de sus clientes. Usando Checkout, la información sensible de la tarjeta de crédito se envía directamente a Stripe, y no toca su servidor. Stripe vuelve a su sitio una representación simbólica de la tarjeta, y este símbolo puede ser utilizado en una solicitud de carga.
 
-////////
+Stripe permite realizar pruebas en vivo y entrar en modo de prueba. Los modos de prueba y pruebas en vivo fueron diseñadas para funcionar casi idénticamente, con algunas diferencias necesarias:
 
+- En el modo de prueba, las transacciones con tarjetas de crédito no se procesan a través de las redes de tarjetas reales y solo se pueden usar los números de tarjeta de prueba que proporciona stripe.
+
+- El modo de prueba permite tener un balance de stripe para probar pagos.
+- Las disputas también tienen un flujo más matizado en el modo en vivo, y un proceso de prueba más simple.
+
+[Stripe] (https://stripe.com/es)
+
+## Explicar cómo se gestiona el tema de los puntos y para qué sirve.
+El tema de los puntos está plasmado con el siguiente cálculo siendo una propuesta inicial para la reducción de las comisiones:
+
+ |Cantidad de ventas en caso de obtener 5 estrellas| 0  | 200  | 400  | 600  | 800  | 1000 |
+ |Puntos 					   | 0  | 1000 | 2000 | 3000 | 4000 | 5000 |
+ |Costo						   | 50 | 50   |  50  | 50   | 50   | 50   |
+ |Disminución de la tasa de comisión  		   | 0  | 0.05 | 0.08 | 0.05 | 0.10 | 0.15 |
+ |Total descuento 				   | 0  | 2.5  |  4   |  5   | 6.5  | 7.5  |
 
 ## ¿cómo van a gestionar disputas? 
 Las disputas únicamente se harán entre comprador y vendedor ofreciendo un enlace por correo electrónico para que ambos arreglen el envío y recepción debido a que el modelo de negocio planteado sería C2C por lo que nos liberaremos de la responsabilidad en caso de reembolsos y/o extravíos.
