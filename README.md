@@ -21,6 +21,11 @@ La empresa "electronic sales" desea implementar un sistema de compra y venta ele
 
 - Se generará una comunidad de usuarios a nivel nacional. 
 - Brindará mayor confianza al realizar una compra en linea. 
+- La ganancia se haría por cobros de comisión dependiendo del costo del producto a vender y se   tendrán inicialmente 3 categorías para el cobro de comision que seran las siguientes:
+Si el producto cierra entre Bs 0 y Bs 175 se cobrará al vendedor un 5% del valor final de venta.
+Si el producto cierra entre Bs 176 y Bs 7.000 se cobrará al vendedor un 5.% sobre los Bs 176 iniciales más 3% sobre el balance restante. 
+Si el producto cierra a más de Bs 7.000 se cobrará al vendedor un 5% sobre los Bs 175 iniciales más 3% sobre el balance entre Bs 175 y Bs 7.000 y 1.5% sobre el balance restante. 
+
 
 ## FACTIBILIDAD (ANÁLISIS DE RIESGOS)
 
